@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* =========================================================================================================== 
+                                      Common css start
+=========================================================================================================== */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+/* ul,
+li,
+ol {
+  list-style: none;
+} */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+/* =========================================================================================================== 
+                                      Common css End
+=========================================================================================================== */
+/* =========================================================================================================== 
+                                      Navbar css start
+=========================================================================================================== */
+nav .heading {
+  font-size: 23px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  line-height: 20px;
+  color: #1fa67a !important;
+}
+
+.ancor_text {
+  font-size: 19px;
+  font-weight: 200;
+  font-family: "Inter", sans-serif;
+  line-height: 30px;
+  color: #999999;
+}
+.ancor_padding {
+  padding: 10px 19px !important;
+  display: inline-block;
+  border: 0px !important;
+}
+.ancor_padding:hover {
+  background: #1fa67a;
+  color: #ffffff !important;
+}
+.ancor_child {
+  padding: 8px 16px;
+  /* background: #1fa67a; */
+}
+.ancor_child:hover {
+  background: #1fa67a;
+  color: #ffffff;
+}
+.radius {
+  border-radius: 10px;
+}
+.text_justify {
+  text-align: justify;
+}
+
+/* =========================================================================================================== 
+                                      Navbar css End
+=========================================================================================================== */
+
+/* =========================================================================================================== 
+                                      Bannar css start
+=========================================================================================================== */
+.bannar_img {
+  height: 550px;
+}
+.bannar_width {
+  max-width: 1450px;
+  margin: 0 auto;
+}
+/* =========================================================================================================== 
+                                      Bannar css End
+=========================================================================================================== */
+/* =========================================================================================================== 
+                                      Download css start
+=========================================================================================================== */
+
+#download {
+  width: 100%;
+  background: #1fa67a;
+  padding-top: 80px;
+  padding-bottom: 59px;
+}
+.download_pragraph {
+  font-size: 21px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 37px;
+  color: #ffffff !important;
+  width: 610px;
+  margin-right: 165px;
+}
+.download_pragraph:hover {
+  font-size: 21px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 37px;
+  color: #ffffff;
+}
+.download_items {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  line-height: 24px;
+  color: #ffffff !important;
+  padding: 18px 31px;
+  border: 1px solid #ffffff;
+  background: transparent;
+  border-radius: 6px;
+}
+.download_items:hover {
+  color: #ffffff;
+  background: #058b5e;
+}
+
+/* =========================================================================================================== 
+                                      Download css End
+=========================================================================================================== */
+/* =========================================================================================================== 
+                                      Card css start
+=========================================================================================================== */
+#product-section {
+  margin-top: 140px;
+}
+.card-wrapper {
+  display: flex;
+
+  column-gap: 40px;
+}
+.card-flex {
+}
+.card-elm {
+  margin-bottom: 52px;
+}
+.product-mt {
+  margin-top: 55px;
+}
+.card-background-info {
+  background: rgba(13, 109, 253, 0.75);
+}
+.card-background-waring {
+  background: rgb(255, 193, 7, 0.75);
+}
+.card-background-danger {
+  background: rgb(220, 53, 69, 0.75);
+}
+.card-body {
+}
+.card-title {
+  font-size: 29px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  line-height: 35px;
+  color: #444444;
+}
+.card_pragraph {
+  display: flex;
+  gap: 18px;
+}
+.card_pragraph p span {
+  margin-right: 3px;
+  color: #1fa67a;
+}
+.card_pragraph p {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 22px;
+  color: #6b6b6b;
+  margin-top: 3px;
+}
+/* #product-section .card-elm .card-flex{
+  display: flex;
+  align-items:flex-start;
+} */
+
+.navbar-nav {
+  margin-left: 90px;
+  margin-top: 14px;
+}
+.navbar-nav .card-button {
+  padding: 6px 11px;
+  border: 1px solid #1fa67a;
+  border-radius: 4px;
+
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 20px;
+  color: #1fa67a;
+  text-align: center;
+  transition: 0.3s all linear;
+}
+.navbar-nav .card-button:hover {
+  background: transparent;
+  color: #ffffff;
+  background: #1fa67a;
+}
+.search {
+}
+.sidebar {
+}
+.seo-details {
+  margin-top: 23px;
+}
+.seo {
+  color: #1fa67a;
+}
+.seo:hover {
+  background-color: #f0f0f0;
+  color: #1fa67a;
+}
+.card-header {
+  background: transparent;
+  border: ;
+}
+.seo-details .card-extra {
+  border: 0px;
+}
+.seo-details .card-extra .card-body-extra {
+  border: 1px solid #d5d5d5;
+  border-top: 0px;
+}
+.card-sidebar1 {
+  border: 0px;
+}
+.card-seo-text .card-title {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 24px;
+  color: #1fa67a;
+}
+.card-seo-text .card-text {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+  line-height: 20px;
+  color: #6b6b6b;
+}
+.card-pm {
+  margin-bottom: 11px;
+}
+.product-card-bottom-button {
+  padding: 18px 330px;
+  border: 1px solid #e8e8e8;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  transition: 0.2s all linear;
+}
+.product-card-bottom-button:hover {
+  background: #1fa67a;
+  color: hsl(0, 0%, 100%);
+}
+.recent-comments h5 {
+  font-size: 23px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  line-height: 26.44px;
+  color: #1fa67a;
+}
+.fa-regular {
+  margin-right: 8px;
+}
+.recent-comments {
+  margin-top: 23px;
+}
+.recent-comments .list-group-item {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 24px;
+  color: #6b6b6b;
+}
+.recent-comments .list-group-item span {
+  color: #1fa67a;
+}
+/* =========================================================================================================== 
+                                      Card css End
+=========================================================================================================== */
+/* =========================================================================================================== 
+                                      Footer css start
+=========================================================================================================== */
+#footer {
+  padding-top: 90px;
+  padding-bottom: 35px;
+  background-color: #444444;
+}
+.color li {
+  background-color: #444444 !important;
+}
+
+.footer-parent {
+  gap: 20px;
+}
+.footer-part-two {
+  margin-left: 380px;
+  width: 327px;
+}
+.footer-part-one h6 {
+  font-size: 19px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  line-height: 19px;
+  color: #cccccc;
+  margin-bottom: 11px;
+}
+.footer-part-one .color li {
+  font-size: 11.44px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 19px;
+  color: #cccccc;
+  padding: 13px 10px;
+}
+.footer-pragraph {
+  padding-top: 14px;
+  padding-bottom: 16px;
+}
+.footer-part-two {
+  font-size: 11.44px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 19px;
+  color: #cccccc;
+}
+.footer-last-part {
+  padding-top: 71px;
+  padding-bottom: 22px;
+  background-color: black;
+}
+.footer-last-part-elm {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+.footer-last-part-elm .nav-link {
+  font-size: 11.44px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 20px;
+  color: #cccccc;
+}
+.footer-last-part-elm .navbar-nav {
+  font-size: 11.44px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 20px;
+  color: #cccccc;
+}
+/* =========================================================================================================== 
+                                      Footer css End
+=========================================================================================================== */
+/* =========================================================================================================== 
+                                      Common css start
+=========================================================================================================== */
+/* =========================================================================================================== 
+                                      Common css End
+=========================================================================================================== */
+/* =========================================================================================================== 
+                                      Common css start
+=========================================================================================================== */
+/* =========================================================================================================== 
+                                      Common css End
+=========================================================================================================== */
